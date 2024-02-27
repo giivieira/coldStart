@@ -1,0 +1,23 @@
+* {
+  font-family: poppins;
+}
+
+.container1 {
+  width: 35vw;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.container1 h1 {
+  color: #0067c7;
+  font-weigth: bold;
+  font-weight: 600;
+  margin-left: 50px;
+  font-size: 35px;
+}
+
+.container1 p {
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 30px;
+}

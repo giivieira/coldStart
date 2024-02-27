@@ -1,0 +1,33 @@
+
+
+* {
+  background-color: #dfdfdf;
+  padding: 0;
+  margin: 0;
+  font-family: poppins;
+}
+
+.degrade-header {
+  width: 100vw;
+  display: flex;
+}
+
+.header img {
+  width: 120px;
+  margin-left: 1500px;
+}
+
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.header h1 {
+  align-self: center;
+  margin-left: 50px;
+  font-weigth: bold;
+  font-weight: 600;
+  color: #0067C7;
+  font-size: 35px;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import './style.css';
 
-function Project() {
+function Container1() {
   return (
     <div className="container1">
       <div className="o-projeto">
@@ -15,7 +15,8 @@ function Project() {
           </p>
       </div>
     </div>
+    
   );
 }
 
-export default Project;
+export default Container1;

@@ -1,0 +1,11 @@
+
+.bothcontainers {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  margin-top: 80px;
+}
+
+.imagem-computador {
+  margin-left: 50px;
+}

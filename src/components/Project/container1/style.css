@@ -21,3 +21,17 @@
   font-size: 20px;
   margin-top: 30px;
 }
+
+.download {
+  background-color: #0067C7 ;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 100px;
+  margin-left: 225px;
+  position: relative;
+}
+

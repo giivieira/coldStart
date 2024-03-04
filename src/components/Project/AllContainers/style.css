@@ -1,5 +1,5 @@
 
-.bothcontainers {
+.allcontainers {
   display: flex;
   flex-direction: row;
   width: 100vw;

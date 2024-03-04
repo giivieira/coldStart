@@ -13,6 +13,7 @@ function Container1() {
             to allowing employees to make their daily lives easier 
             with the use of new functions, now fully digitalized.
           </p>
+          <button className='download'>DOWNLOAD DOCUMENTATION</button>
       </div>
     </div>
     

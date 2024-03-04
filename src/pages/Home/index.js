@@ -1,12 +1,12 @@
 import React from 'react'
 import Header from '../../components/Header'
-import BothContainers from '../../components/Project/BothContainers';
+import AllContainers from '../../components/Project/AllContainers';
 
 function Home () {
   return (
     <>
       <Header/>
-      <BothContainers/>
+      <AllContainers/>
     </>
   )
 }

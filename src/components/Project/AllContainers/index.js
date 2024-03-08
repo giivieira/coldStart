@@ -1,18 +1,19 @@
-import React from 'react';
-import Container1 from '../container1';
-import Container2 from '../container2';
-// import Container3 from '../container3';
-import './style.css'
+import React from "react";
+import Container1 from "../container1";
+import Container2 from "../container2";
+import Container3 from "../container3";
+import "./style.css";
 
-function AllContainers () {
+function AllContainers() {
   return (
-    
-    <div className='allcontainers'>
-      <Container1/>
-      <Container2/>
-      {/* <Container3/> */}
-    </div>
-  )
+    <>
+      <div className="allcontainers">
+        <Container1 />
+        <Container2 />
+      </div>
+      <Container3 />
+    </>
+  );
 }
 
 export default AllContainers;

@@ -1,5 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container3 {
-  width: 500px;
+  width: 100vw;
   height: 500px;
-  backgroud-color: #00000;
+  background-color: #0067C7;
+  position: relative; 
+}
+
+.container3 h1 {
+  background-color: #0067C7;
+  color: #fff;
+  margin-left: 100px;
+  padding-top: 50px
+}
+
+.imagensTecnologias {
+  
 }

@@ -1,8 +1,9 @@
 import React from "react";
 import Container1 from "../container1";
 import Container2 from "../container2";
-import Container3 from "../container3";
+import Technologies from "../technologies";
 import "./style.css";
+import TheTeam from '../team';
 
 function AllContainers() {
   return (
@@ -11,7 +12,8 @@ function AllContainers() {
         <Container1 />
         <Container2 />
       </div>
-      <Container3 />
+      <Technologies/>
+      <TheTeam/>
     </>
   );
 }

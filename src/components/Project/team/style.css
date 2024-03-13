@@ -39,3 +39,20 @@
   left: 1350px;
   margin-top: 50px;
 }
+
+.nomes {
+  display: flex;
+  flex-direction: row;
+  margin-left: 520px;
+}
+
+#name {
+  margin-right: 190px;
+  margin-top: -50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#function {
+  margin-top: 20px;
+}

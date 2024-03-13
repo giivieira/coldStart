@@ -1,5 +1,6 @@
 import React from "react";
 import './style.css';
+import DownloadButton from '../download';
 
 function Container1() {
   return (
@@ -13,7 +14,7 @@ function Container1() {
             to allowing employees to make their daily lives easier 
             with the use of new functions, now fully digitalized.
           </p>
-          <button className='download'>DOWNLOAD DOCUMENTATION</button>
+          <DownloadButton/>
       </div>
     </div>
     

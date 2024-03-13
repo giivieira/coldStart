@@ -1,0 +1,13 @@
+.download {
+  background-color: #0067C7 ;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 320px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 180px;
+  position: relative;
+}
+

@@ -1,58 +1,59 @@
-.fotos {
-  position: relative;
+.containerTeam {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .containerTeam h1 {
-  color: #0067C7;
+  width: 100%;
   text-align: center;
-  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .fotos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fotos .teamMember {
+  position: relative;
   text-align: center;
+  margin: 10px;
 }
 
 .fotos img {
-  margin: 50px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  position: relative;
 }
 
-#linkedinAngelo {
-  margin: 0px;
-  width: 60px;
+.linkedinIcon {
   position: absolute;
-  left: 670px;
-  margin-top: 50px;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 20px; /* Tamanho da bolinha do LinkedIn */
+  height: 20px; /* Tamanho da bolinha do LinkedIn */
+  border-radius: 50%;
+  background-color: #0077b5; /* Cor do LinkedIn */
 }
 
-#linkedinDiego {
-  margin: 0px;
-  width: 60px;
-  position: absolute;
-  left: 1000px;
-  margin-top: 50px;
-}
-
-#linkedinGiovanna {
-  margin: 0px;
-  width: 60px;
-  position: absolute;
-  left: 1350px;
-  margin-top: 50px;
-}
-
-.nomes {
+.informacoes {
   display: flex;
-  flex-direction: row;
-  margin-left: 520px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-#name {
-  margin-right: 190px;
-  margin-top: -50px;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-#function {
-  margin-top: 20px;
+.infoAngelo,
+.infoDiego,
+.infoGiovanna {
+  text-align: center;
+  margin: 10px;
 }

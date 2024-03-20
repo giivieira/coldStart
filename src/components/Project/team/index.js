@@ -20,7 +20,7 @@ const teamMembers = [
     linkedin: 'https://www.linkedin.com/in/diego-castan-lopes/',
   },
   {
-    name: 'Giovanna Vieira ',
+    name: 'Giovanna Vieira',
     function: 'UX/UI Designer',
     photo: giovanna,
     linkedin: 'https://www.linkedin.com/in/giovanna-vieira-b35676266/',
@@ -35,8 +35,8 @@ function TheTeam() {
         {teamMembers.map((member, index) => (
           <div key={index} className="teamMember">
             <div className="imageContainer">
-              <img src={member.photo} alt={member.name}></img>
-              <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+              <img src={member.photo} id='foto' alt={member.name}></img>
+              <a href={member.linkedin}  target="_blank" rel="noopener noreferrer">
                 <img className="linkedinIcon" src={linkedin} alt="linkedin"></img>
               </a>
             </div>

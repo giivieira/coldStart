@@ -41,8 +41,8 @@ function TheTeam() {
               </a>
             </div>
             <div className={`info${member.name.split(' ')[0]}`}>
-              <p>{member.name}</p>
-              <p>{member.function}</p>
+              <p id='name'>{member.name}</p>
+              <p id='function'>{member.function}</p>
             </div>
           </div>
         ))}

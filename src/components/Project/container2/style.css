@@ -16,7 +16,7 @@
 }
 
 .imagem-simbolo img { 
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .container2 {
@@ -25,9 +25,9 @@
 }
 
 .informacoes {
-  font-weigth: bold;
-  font-weight: 600;
-  margin-top: 45px;
+  /* font-weigth: bold;
+  font-weight: 600; */
+  margin-top:45px;
   line-height: 100px;
   margin-left: 30px;
   font-size: 20px;

@@ -40,17 +40,15 @@
   top: 0;
   right: 0;
   z-index: 1;
-  width: 70px; /* Tamanho da bolinha do LinkedIn */
-  height: 70px; /* Tamanho da bolinha do LinkedIn */
-  border-radius: 50%;
-  background-color: #0077b5; /* Cor do LinkedIn */
+  width: 70px; 
+  height: 70px; 
 }
 
+#name {
+  font-weight: bold;
+  font-size: 20px;
+}
 
-
-.infoAngelo,
-.infoDiego,
-.infoGiovanna {
-  text-align: center;
-  margin: 10px;
+#function {
+  margin-top: -15px;
 }

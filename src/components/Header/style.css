@@ -12,17 +12,12 @@
   top: 0;
   left: 0;
   right: 0;
-
-  /* @media ${breakpoints.big} {
-    background-color: red;
-
-  } */
-  
 }
 
 .header img {
   width: 120px;
   margin-right: 10px;
+  
 }
 
 .header h1 {

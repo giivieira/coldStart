@@ -9,5 +9,10 @@
   margin-top: 100px;
   margin-left: 180px;
   position: relative;
+
+  @media(max-width:1683px){
+    margin-top: 50px;
+    margin-left: 90px;
+}
 }
 

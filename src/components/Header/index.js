@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import bosch from "../../assets/logo-Bosch.png";
 import degrade from "../../assets/degrade.png";
-import breakpoints from '../../styles/breakpoints';
+// import breakpoints from '../../styles/breakpoints';
 
 function Header() {
   return (

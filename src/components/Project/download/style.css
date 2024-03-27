@@ -12,7 +12,13 @@
 
   @media(max-width:1683px){
     margin-top: 50px;
-    margin-left: 90px;
+    margin-left: 70px;
+  }
+
+  @media(max-width: 1595px){
+    margin-top: 20px;
+  }
+
 }
-}
+
 

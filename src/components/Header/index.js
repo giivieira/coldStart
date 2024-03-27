@@ -14,7 +14,7 @@ function Header() {
 
       <div className="header">
         <h1>COLD START</h1>
-        <img src={bosch} alt="bosch"></img>
+        <img id='bosch' src={bosch} alt="bosch"></img>
       </div>
     </div>
   );

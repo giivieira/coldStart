@@ -28,6 +28,5 @@
 .degrade-header {
   display: flex;
   max-width: 100%;
-  height: auto;
-  object-fit: cover;
+  
 }
